@@ -1,0 +1,13 @@
+{
+  "viteReact": "Cliquez sur les logo Vite et React pour en apprendre plus",
+  "counting": "Le compteur est à ",
+  "edit": "Editez",
+  "saveToTest": "et sauvegarder pour tester le Hot Module Replacement",
+  "direction": {
+    "right": "Droite"
+  },
+  "correct": {
+    "right": "Correct"
+  },
+  "differentMeanings": "Certains mots peuvent avoir plusieurs sens selon le context. Par exemple, le mot right en anglais:"
+}
