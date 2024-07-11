@@ -1,8 +1,7 @@
 {
   "viteReact": "Cliquez sur les logo Vite et React pour en apprendre plus",
   "counting": "Le compteur est à ",
-  "edit": "Editez",
-  "saveToTest": "et sauvegarder pour tester le Hot Module Replacement",
+  "testHMR": "Editez <1>{{url}}</1> et sauvegarder pour tester le Hot Module Replacement",
   "direction": {
     "right": "Droite"
   },

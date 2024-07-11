@@ -1,8 +1,7 @@
 {
   "viteReact": "Click on the Vite and React logos to learn more",
   "counting": "count is",
-  "edit": "Edit",
-  "saveToTest": "and save to test HMR",
+  "testHMR": "Edit <1>{{url}}</1> and save to test HMR",
   "direction": {
     "right": "Right direction"
   },

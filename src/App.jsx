@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './i18n'
-import {useTranslation} from 'react-i18next'
+import {useTranslation, Trans} from 'react-i18next'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,10 +26,12 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          {t('count') + count}
+          {t('counting') + count}
         </button>
         <p>
-          {t('edit')} <code>src/App.jsx</code> {t('saveToTest')}
+          <Trans i18nKey="testHMR">
+            Edit <code>{{url: 'src/App.jsx'}}</code>
+          </Trans>
         </p>
       </div>
       <p className="read-the-docs">{t('viteReact')}</p>
